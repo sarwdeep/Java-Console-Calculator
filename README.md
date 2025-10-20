@@ -40,34 +40,35 @@ The **Java Console Calculator** is a simple command-line application built using
 
 
 
-Questions:
-1.What is method overloading?
-Method overloading occurs when multiple methods in the same class share the same name but differ in the number or type of parameters. The compiler determines which method to invoke based on the argument list
+# Java Basic Questions and Answers
 
-2.How do you handle divide-by-zero?
-Divide-by-zero can be handled using conditional checks (if-else) to prevent division when the denominator is zero, or by using exception handling (try-catch) to catch ArithmeticException
+1. **What is method overloading?**  
+   Method overloading occurs when multiple methods in the same class share the same name but differ in the number or type of parameters. The compiler determines which method to invoke based on the argument list.
 
-3.Difference between == and .equals()?
-== compares object references (i.e., whether two variables refer to the same memory location), whereas .equals() compares the contents or values of the objects.
+2. **How do you handle divide-by-zero?**  
+   Divide-by-zero can be handled using conditional checks (if-else) to prevent division when the denominator is zero, or by using exception handling (try-catch) to catch ArithmeticException.
 
-4.What are the basic data types in Java?
-Java has eight primitive data types: byte, short, int, long, float, double, char, and boolean.
+3. **Difference between == and .equals()?**  
+   == compares object references (i.e., whether two variables refer to the same memory location), whereas .equals() compares the contents or values of the objects.
 
-5.How is Scanner used for input?
-The Scanner class (from java.util package) is used to take user input from the console. It can read different data types such as integers, strings, and doubles using methods like nextInt(), nextLine(), and nextDouble().
+4. **What are the basic data types in Java?**  
+   Java has eight primitive data types: byte, short, int, long, float, double, char, and boolean.
 
-6.Explain the role of a loop.
-Loops are used to execute a block of code repeatedly, reducing redundancy. They continue running until a specified condition becomes false.
+5. **How is Scanner used for input?**  
+   The Scanner class (from java.util package) is used to take user input from the console. It can read different data types such as integers, strings, and doubles using methods like nextInt(), nextLine(), and nextDouble().
 
-7.Difference between while and for loop?
-A for loop is typically used when the number of iterations is known in advance (uses initialization, condition, and update in one line).
-A while loop is used when the number of iterations is not known beforehand and depends on a condition being true.
+6. **Explain the role of a loop.**  
+   Loops are used to execute a block of code repeatedly, reducing redundancy. They continue running until a specified condition becomes false.
 
-8.What is the JVM?
-The Java Virtual Machine (JVM) is an engine that runs Java bytecode. It provides a runtime environment that converts bytecode into machine code, allowing Java programs to run on any device or operating system.
+7. **Difference between while and for loop?**  
+   A for loop is typically used when the number of iterations is known in advance (uses initialization, condition, and update in one line).  
+   A while loop is used when the number of iterations is not known beforehand and depends on a condition being true.
 
-9.How is Java platform-independent?
-ava is platform-independent because its compiler converts source code into bytecode, which is executed by the JVM. The JVM is system-specific, so the same bytecode can run on any platform with a JVM.
+8. **What is the JVM?**  
+   The Java Virtual Machine (JVM) is an engine that runs Java bytecode. It provides a runtime environment that converts bytecode into machine code, allowing Java programs to run on any device or operating system.
 
-10.How do you debug a Java program?
-A Java program can be debugged using IDE tools (like breakpoints in IntelliJ or Eclipse) or by printing variable values to the console. You can also use the command line debugger (jdb) to trace execution and find logical errors.
+9. **How is Java platform-independent?**  
+   Java is platform-independent because its compiler converts source code into bytecode, which is executed by the JVM. The JVM is system-specific, so the same bytecode can run on any platform with a JVM.
+
+10. **How do you debug a Java program?**  
+    A Java program can be debugged using IDE tools (like breakpoints in IntelliJ or Eclipse) or by printing variable values to the console. You can also use the command line debugger (jdb) to trace execution and find logical errors.
